@@ -1,0 +1,30 @@
+.header {
+	height: 120px;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 25px;
+	background-color: rgba(#222, 0.1);
+
+	.logo-container {
+		height: 70px;
+		width: 70px;
+		padding: 10px 10px 10px 15px;
+		margin: 15px;
+	}
+
+	.options {
+		width: 50%;
+		height: 100%;
+		display: flex;
+		align-items: center;
+		justify-content: flex-end;
+
+		.option {
+			// color: white;
+			font-size: 1.5rem;
+			padding: 10px 50px;
+			cursor: pointer;
+		}
+	}
+}
